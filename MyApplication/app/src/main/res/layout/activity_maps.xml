@@ -1,0 +1,20 @@
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    >
+
+
+    <EditText
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Marker name"
+        android:id="@+id/message" />
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="382dp"
+    android:layout_height="532dp" android:id="@+id/map" tools:context=".MapsActivity"
+    android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+</LinearLayout>
